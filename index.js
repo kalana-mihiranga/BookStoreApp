@@ -1,9 +1,11 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const router=require("./")
+const router=require("./routes/book-routes")
 
 const app=express()
 //middleware
+app.use(express.json())
+app.use("/books",router)
 
 
 //SWYpIL7VQBST9DdW

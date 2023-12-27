@@ -1,18 +1,12 @@
 const express=require("express")
 const router=express.Router();
 const Book=require("../model/Book")
+const booksController=require("../controller/book-controller")
 
-router.get("/",async(req,res,next)=>{
-    let books;
-    try{
-        books=await Book.find();
+router.get("/", booksController.getAllBooks);
+router.post("/", booksController.addBook);
+router.get("/:id", booksController.getById);
+router.put("/:id", booksController.updateBook);
+router.delete("/:id", booksController.deleteBook);
 
-    }catch(err){
-        console.log(err)
-    }
-    if(!books){
-        return res.status(404).json({message: "No producs Found"})
-    }return res.status(200).json({books});
-
-})
 module.exports=router;
