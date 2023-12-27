@@ -1,11 +1,9 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const router=require("./")
 
 const app=express()
 //middleware
-app.use('/',(req,res,next)=>{
-    res.send("connected")
-})
 
 
 //SWYpIL7VQBST9DdW
