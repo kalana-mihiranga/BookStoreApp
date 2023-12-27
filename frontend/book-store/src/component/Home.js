@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Addbook = () => {
+const Home = () => {
   return (
     <div>
-        Addbook
+        Home
       
     </div>
   )
 }
 
-export default Addbook
+export default Home
