@@ -13,8 +13,9 @@ const Header = () => {
        <AppBar sx={{ backgroundColor: "#232F3D" }} position="sticky">
         <Toolbar>
         <Typography variant="h1">
-        📖
-         </Typography>
+        ƊỾ
+
+         </Typography>BOOKSTORE
          <Tabs sx={{ml:"auto"}}   textColor="inherit" indicatorColor="secondary"value={value} onChange={(e, val) => setValue(val)}
           >
             <Tab LinkComponent={NavLink} to="/add" label= "Add Product"/>

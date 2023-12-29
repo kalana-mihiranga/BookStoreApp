@@ -6,7 +6,7 @@ import Home from './component/Home'
 import Addbook from './component/Addbook'
 import Header from './component/Header';
 import Books from './component/Book/Books';
-import BookDetail from './component/BookDetail';
+import BookDetail from './component/Book/BookDetail';
 import {Routes,Route} from "react-router-dom"
 
 function App() {
