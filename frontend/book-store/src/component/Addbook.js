@@ -1,11 +1,4 @@
-import {
-  Button,
-  Checkbox,
-  FormControlLabel,
-  FormLabel,
-  TextField,
-  Typography,
-} from "@mui/material";
+import {Button,Checkbox,FormControlLabel, FormLabel,TextField,ypography,} from "@mui/material";
 import { Box } from "@mui/system";
 import axios from "axios";
 import React, { useState } from "react";
@@ -27,7 +20,7 @@ const AddBook = () => {
       ...prevState,
       [e.target.name]: e.target.value,
     }));
-    // console.log(e.target.name, "Value", e.target.value);
+    console.log(e.target.name, "Value", e.target.value);
   };
 
   const sendRequest = async () => {
