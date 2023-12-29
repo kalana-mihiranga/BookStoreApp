@@ -19,10 +19,10 @@ ul {
   }
   
   .card {
-    margin-top: 150px;
+    
     
     padding: 5px;
-    height: 100%;
+    height: 150%;
     width: 100%;
     box-shadow: 5px 5px 10px #ccc;
     display: flex;

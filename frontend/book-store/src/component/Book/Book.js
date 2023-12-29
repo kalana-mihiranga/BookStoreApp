@@ -11,9 +11,9 @@ const Book = (props) => {
       <article>By {author}</article>
       <h3>{name}</h3>
       <p>{description}</p>
-      <h3>Rs {price}</h3>
-      <Button>Update</Button>
-      <Button>Delete</Button>
+      <h3>$ {price}</h3>
+      <Button sx={{mt:'auto'}}>Update</Button>
+      <Button sx={{mt:'auto'}}>Delete</Button>
       
     </div>
   )
